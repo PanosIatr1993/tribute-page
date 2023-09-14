@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+}
+
+#title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    font-style: strong;  
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 15;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(0, 67%, 30%);
+    margin: 15px auto 15px auto;
+    padding: 15px 15px 15px 15px;
+    max-width: 70%;
+}
+
+figure {
+    background-color: hsl(183, 53%, 20%);
+    border-radius: 3%;
+    border-style: 1px solid hsl(183, 53%, 20%);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto; 
+}
+
+#img-caption {
+    color: transparent;
+    display: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+ul {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    color: white;
+    background-color: hsl(0, 67%, 30%);
+    border-style: solid;
+    border-color: hsl(0, 45%, 33%);
+    border-radius: 2%;
+    border-width: 3px;
+    font-family: Lucida Sans;
+}
+
+li {
+    line-height: 40px;
+}
+
+#quote {
+    max-width: 200px;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    font-family: monospace;
+    font-weight: 10;
+    color: white;
+}
+
+hr {
+    max-width: 400px;
+}
+
+.link {
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#tribute-link:hover{
+    color: red;
+    opacity: 0.5;
+    box-shadow: 2px 1px 15px 15px black;
+}
+
+#link1, #link2, #link3 {
+    font-family: serif;
+}
+
+#link1:hover, #link2:hover, #link3:hover{
+    color: black;
+    opacity: 0.5;
+    box-shadow: 2px 1px 35px 5px red;
+}
+
+.red-background{
+    background-color: hsl(0, 45%, 33%);
+}
